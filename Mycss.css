@@ -1,0 +1,39 @@
+#header{
+    background: rgb(184, 94, 109);
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: larger;
+}
+#nav{
+    color: white;
+    background: rgb(252, 159, 252);
+    height: 50px   ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-size: larger;
+}
+#sec{
+    color:white ;
+    background: rgb(155,153,153);
+    height: 550px;
+    
+    
+}
+#footer{
+    background: rgb(248, 71, 248);
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    
+}
+        

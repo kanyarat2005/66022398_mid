@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #03772a;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        footer {
+            background-color:  rgb(255, 255, 255);
+            padding: 20px;
+            border: 5px solid rgb(61, 61, 61);
+            margin: 5px;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            flex: 1;
+            padding: 20px;
+        }
+        nav {
+            background-color: rgb(61, 61, 61);
+            
+        }
+        button {
+            background-color: rgb(61, 61, 61);
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            float: left;
+        }
+        button:hover {
+            background-color: rgb(100, 100, 100);
+        }
+        div {
+            width: 600px;
+            padding: 15px;
+            text-align: center;
+        }
+        aside {
+            background-color: lightgrey;
+        }
+
+        section {
+            background-color: lightgrey;
+        }
+        .P1 {
+            background-color: rgb(247, 102, 102);
+        }
+        .P2 {
+            background-color: rgb(238, 140, 74);
+        }
+        .P3 {
+            background-color: rgb(81, 26, 133);
+        }
+        .l {
+            text-align: justify;
+        }
+        .footer {
+            display: flex;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my page</h1>
+    </header>
+    <nav>
+        <a href="#header"><button class="button">Home</button></a>
+        <a href="#P1"><button class="button">Projects</button></a>
+        <a href="#footer"><button class="button">Contract</button></a>
+    </nav>
+    <main>
+        <div class="P1">
+            <h2>Project A</h2>
+            <img><img src="profile/profile.png" width="75" height="75"></img>
+            <p class="l">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quis temporibus ut soluta adipisci! Quod deserunt sed dolores a, ratione quidem blanditiis autem? Aspernatur, incidunt magni ipsam vitae ad aliquam.</p>
+        </div>
+        <div class="P2">
+            <h2>Project B</h2>
+            <img><img src="profile/profile.png" width="75" height="75"></img>
+            <p class="l">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quis temporibus ut soluta adipisci! Quod deserunt sed dolores a, ratione quidem blanditiis autem? Aspernatur, incidunt magni ipsam vitae ad aliquam.</p>
+        </div>
+        <div class="P3">
+            <h2>Project C</h2>
+            <img><img src="profile/profile.png" width="75" height="75"></img>
+            <p class="l">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quis temporibus ut soluta adipisci! Quod deserunt sed dolores a, ratione quidem blanditiis autem? Aspernatur, incidunt magni ipsam vitae ad aliquam.</p>
+        </div>
+    </main>
+    <footer class="footer">
+        <img src="profile/mail.png" alt="" width="35" height="35">
+        <img src="profile/facebook.png" alt="" width="60" height="35">
+        <img src="profile/github.jpg" alt="" width="60" height="35">
+        <img src="profile/in.png" alt="" width="35" height="35">
+    </footer>
+</body>
+</html>
